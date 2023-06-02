@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  background: linear-gradient(90deg, orange, skyblue);
+  text-align: center;
+  padding: 10px;
+}
+
+.app {
+  background-color: blanchedalmond;
+}
