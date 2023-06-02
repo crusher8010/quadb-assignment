@@ -1,0 +1,51 @@
+.mainDiv {
+    padding: 20px;
+    background-color: blanchedalmond;
+    min-height: 100vh;
+}
+
+.Container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgDiv {
+    width: 40%;
+}
+
+.detailsDiv {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.detailsDiv button {
+    width: 20%;
+    margin-top: 10px;
+}
+
+.imgDiv img {
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .Container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .imgDiv {
+        width: 80%;
+        margin: auto;
+    }
+
+    .detailsDiv {
+        width: 90%;
+        margin: auto;
+    }
+}
